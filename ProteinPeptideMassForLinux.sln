@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProteinPeptideMassForLinux", "ProteinPeptideMassForLinux\ProteinPeptideMassForLinux.vcxproj", "{DCF87D28-D619-403D-910A-C0A96FEB5EC1}"
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ProteinPeptideMassForLinux\\ProteinPeptideMassForLinux.vcxproj
+		SccLocalPath1 = .
+		SccProjectFilePathRelativizedFromConnection1 = ProteinPeptideMassForLinux\\
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DCF87D28-D619-403D-910A-C0A96FEB5EC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DCF87D28-D619-403D-910A-C0A96FEB5EC1}.Debug|Win32.Build.0 = Debug|Win32
+		{DCF87D28-D619-403D-910A-C0A96FEB5EC1}.Release|Win32.ActiveCfg = Release|Win32
+		{DCF87D28-D619-403D-910A-C0A96FEB5EC1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
