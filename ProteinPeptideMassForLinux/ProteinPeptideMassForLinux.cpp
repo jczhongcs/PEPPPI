@@ -47,6 +47,8 @@ int _tmain(int argc, _TCHAR* argv[])
 
 
 //////////////////////////////////////////////////////////////////////////
+	Config configFile;
+	configFile.ReadPara();
 
 	CProteinSequence objProteinSequence;
 
@@ -200,6 +202,9 @@ int _tmain(int argc, _TCHAR* argv[])
 
 	}//end times
 	ofstream out(Config::strOutResultFileName);
+	out<<"ProteinName"<<"\tScore"<<"\tinGoldenset"<<"\t#Peptide"<<"\t#Neighbor"<<"\t#NeiWithScore1.0"<<"\t#NeiWithScore>=0.9"<<
+		"\t#NeiWithScore>=0.8"<<"\t#NeiWithScore>=0.7"<<"\t#NeiWithScore>=0.6"<<"\t#NeiWithScore>=0.5"<<"\t#NeiWithScore>=0.4"<<
+		"\t#NeiWithScore>=0.3"<<"\t#NeiWithScore>=0.2"<<"\t#NeiWithScore>=0.1"<<endl;	
 	int irrevanceCount=0;
 	int iUnique=0;
 	for (int i=0;i<objListProtein.vProteinList.size();i++)

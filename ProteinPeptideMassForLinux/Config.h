@@ -12,7 +12,6 @@ public:
 	static string strPPIFileName;
 	static string strSequenceFileName;
 	static string strGoldensetFileName;
-	static string strKeyProteinFileName;
 
 	static string strPeptideProphetResult;
 	static char cSplitChar;
@@ -24,7 +23,7 @@ public:
 
 	static void ReadPara()
 	{
-		ifstream config_file("para.ini");
+		ifstream config_file("../para.ini");
 	
 		string strFromPara;
 		while(config_file>>strFromPara)
@@ -35,8 +34,6 @@ public:
 				config_file>>strSequenceFileName;
 			else if(strFromPara=="strGoldensetFileName")
 				config_file>>strGoldensetFileName;
-			else if(strFromPara=="strKeyProteinFileName")
-				config_file>>strKeyProteinFileName;
 			else if(strFromPara=="strPeptideProphetResult")
 				config_file>>strPeptideProphetResult;
 			else if(strFromPara=="cSplitChar")

@@ -4,13 +4,13 @@
 
 
 
-string Config::strPPIFileName("C:\\Users\\Administrator\\Desktop\\massInference\\20140711result\\data04\\DIP20150429Filter.txt");
-string Config::strSequenceFileName("j:\\mass\\mass_yeast\\sc_SGD_0604.fasta");
-string Config::strGoldensetFileName("C:\\Users\\Administrator\\Desktop\\massInference\\20140711result\\data02GoldenSet.txt");
-string Config::strPeptideProphetResult("E:\\workP1\\ProteinLP\\real_data\\yeastData04XTgt05_6.txt");
+string Config::strPPIFileName("../RealDatasets/yeast/DIP20131031.txt");
+string Config::strSequenceFileName("../RealDatasets/yeast/sc_SGD_0604.fasta");
+string Config::strGoldensetFileName("../RealDatasets/yeast/GoldenSet.txt");
+string Config::strPeptideProphetResult("../RealDatasets/yeast/yeastData04XTgt05_6.txt");
 char   Config::cSplitChar(',');
 int Config::iRunTimes=500;
-string Config::strOutResultFileName("outFirstResultYeast1");
+string Config::strOutResultFileName("../RealDatasets/yeast/outFirstResultYeast1");
 
 Config::Config(void)
 {
