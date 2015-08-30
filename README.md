@@ -31,7 +31,9 @@ run *PEPPPI* that was built with Visual Studio 2012
 ```
 ##Usage
 User can modify the para.ini to set the parameters for the PEPPPI, which include the PPIFileName, SequenceFileName, GoldenSetFileName(optional),PeptideProphetResult, Splitchar, RunTimes, and OutResultFileName.
+
 For example(yeast datasets)
+```
 strPPIFileName	../RealDatasets/yeast/DIP20131031.txt
 strSequenceFileName	../RealDatasets/yeast/sc_SGD_0604.fasta
 strGoldensetFileName	../RealDatasets/yeast/GoldenSet.txt
@@ -39,3 +41,4 @@ strPeptideProphetResult	../RealDatasets/yeast/yeastData04XTgt05_6.txt
 cSplitChar	,
 iRunTimes	500
 strOutResultFileName	../RealDatasets/yeast/outFirstResultYeast1
+```
