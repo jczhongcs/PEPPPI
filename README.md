@@ -9,9 +9,9 @@ Protein inference from the integration of tandem MS data and PPI networks
 
 ---
 
-**Current version:** 0.1.0
+**Current version:** 0.6.0
 
-Support for Windows
+Support for Windows & Linux
 
 ##Summary
 In PPI networks, interacting (thus co-existing) proteins for a specific function are often neighbors. We present our proposed method, called *PEPPPI*, by introducing the extended bipartite model combined with PPI networks. The PEPPPI iteratively computes the probability of a shared peptide belonging to a specific protein. Compared with the original bipartite model, our PEPPPI integrates PPI networks with tandem MS data to infer proteins. 
