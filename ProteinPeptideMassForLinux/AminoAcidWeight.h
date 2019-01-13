@@ -29,3 +29,4 @@ private:
 	const static double m_minMass;
 	const static double m_maxMass;
 };
+
